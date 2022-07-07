@@ -4,3 +4,56 @@ body {
   font-family: 'Poppins', sans-serif;
   color: variables.$color-black;
 }
+
+.mini-head{
+  font-size: 24px;
+  font-weight: 600;
+  color: #e32c2b;
+  text-transform: uppercase;
+
+  @media(max-width: 1400px){
+    font-size: 20px;
+  }
+
+  @media(max-width: 767px){
+    font-size: 18px;
+  }
+}
+
+.section-header{
+  font-size: 55px;
+  font-weight: 600;
+  padding: 20px 0;
+
+  @media(min-width: 1700px){
+    white-space: pre-line;
+  }
+
+  @media(max-width: 1400px){
+    font-size: 45px;
+    padding: 15px 0;
+  }
+
+  @media(max-width: 767px){
+    font-size: 35px;
+    padding: 10px 0;
+  }
+}
+
+
+.section-passage{
+  font-size: 20px;
+  font-weight: 400;
+
+  @media(max-width: 1400px){
+    font-size: 18px;
+  }
+
+  @media(max-width: 767px){
+    font-size: 15px;
+  }
+
+  @media(min-width: 1700px){
+    white-space: pre-line;
+  }
+}
