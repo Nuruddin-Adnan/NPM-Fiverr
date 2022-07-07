@@ -1,0 +1,51 @@
+.trusted-global-brands-and-map{
+   padding: 70px 0;
+
+   @media(max-width: 991px){
+      padding: 40px 0;
+
+   }   
+
+   .brand-icons{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+      
+      @media(max-width: 1199px){
+         grid-template-columns: repeat(4, 1fr);
+         gap: 20px;
+      }
+      @media(max-width: 991px){
+         grid-template-columns: repeat(3, 1fr);
+         gap: 20px;
+      }
+      @media(max-width: 575px){
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+      }
+   }
+
+   .map{
+      .text-section{
+         box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+         padding: 50px;
+
+         .country-list{
+            li{
+               list-style:disc;
+               accent-color: red;
+               font-weight: 600;
+               font-size: 30px;
+
+               @media(max-width: 1400px){
+                  font-size: 25px;
+               }
+
+               @media(max-width: 767px){
+                  font-size: 20px;
+               }
+            }
+         }
+      }
+   }
+}

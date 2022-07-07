@@ -1,0 +1,92 @@
+.sustainable-manufacturing{
+   padding: 60px 0;
+
+   .section-head{
+      p{
+         font-size: 20px;
+         font-weight: 400;
+
+         @media(max-width: 1199px){
+            font-size: 16px;
+         }
+      }
+   }
+
+   .card-container{
+      padding: 40px 0;
+
+      .item{
+         
+
+         .feature-item{
+            padding: 30px;
+            box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+            position: relative;
+            background: #ffffff;
+             
+            img{
+               max-width: 135px;
+   
+               @media(max-width: 1199px){
+                  max-width: 95px;
+               }
+            }
+   
+            .card-heading{
+               font-weight: 600;
+               font-size: 30px;
+               padding: 20px 0;
+   
+               @media(max-width: 787px){
+                  font-size: 22px;
+               }
+            }
+   
+            .card-passage{
+               font-weight: 400;
+               font-size: 16px;
+   
+               @media(max-width: 787px){
+                  font-size: 12px;
+               }
+            }
+
+
+
+            &.first{
+               .dot{
+                  position: absolute;
+                  top: -14px;
+                  right: -14px;
+                  z-index: -1;
+               }
+            }
+   
+            &.second{
+               .dot-1{
+                  position: absolute;
+                  top: -14px;
+                  left: -14px;
+                  z-index: -1;
+               }
+   
+               .dot-2{
+                  position: absolute;
+                  right: -14px;
+                  bottom: -14px;
+                  z-index: -1;
+               }
+            }
+   
+            &.third{
+               .dot{
+                  position: absolute;
+                  bottom: -14px;
+                  left: -14px;
+                  z-index: -1;
+               }
+            }
+         }
+      }
+   }
+}
