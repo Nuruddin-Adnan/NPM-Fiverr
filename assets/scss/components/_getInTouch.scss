@@ -1,0 +1,134 @@
+.get-in-touch{
+   background: url(../Images/Background/contact-us-bg.png) no-repeat top center/cover;
+   color: #fff;
+
+   span{
+      font-size: 24px;
+      font-weight: 60;
+      text-transform: uppercase;
+
+      @media(max-width: 1400px){
+         font-size: 20px;
+      }
+      @media(max-width: 767px){
+         font-size: 18px;
+      }
+   }
+
+   .sec-header{
+      font-weight: 700;
+      font-size: 50px;
+      padding: 25px 0;
+
+      @media(max-width: 1400px){
+         font-size: 40px;
+      }
+      @media(max-width: 767px){
+         font-size: 35px;
+         padding: 15px 0;
+      }
+   }
+   
+   .sub-paragraph{
+      font-size: 20px;
+      font-weight: 400;
+      padding-bottom: 45px;
+
+      @media(max-width: 1400px){
+         font-size: 16px;
+         padding-bottom: 35px;
+      }
+   }
+
+   .address{
+      display: flex;
+      padding-left: 10px;
+   }
+   .email, .office{
+      padding-bottom: 30px;
+   }
+
+   .image{
+      padding: 10px 20px 0 0;
+      width: 65px;
+
+      img{
+         max-width: 55px;
+      }
+
+   }
+
+   .con-title{
+      font-size: 20px;
+      font-weight: 400;
+
+      @media(max-width: 1400px){
+         font-size: 16px;
+      }
+   }
+
+   .con-main{
+      font-size: 24px;
+      font-weight: 700;
+      a{
+         color: #fff;
+      }
+
+      @media(min-width: 1400px) {
+         white-space: pre-line;         
+      }
+
+      @media(max-width: 1400px){
+         font-size: 20px;
+      }
+      @media(max-width: 767px){
+         font-size: 16px;
+      }
+   }
+
+
+   // form section
+   .message-form{
+      h3{
+         font-size: 30px;
+         font-weight: 700;
+         padding-bottom: 40px;
+
+         @media(max-width: 1400px){
+            padding-bottom: 25px;
+         }
+
+      }
+
+      label{
+         font-weight: 400;
+         font-size: 20px;
+
+         @media(max-width: 1400px){
+            font-size: 16px;
+         }
+      }
+
+
+      .form-control{
+         background: transparent;
+         border: none;
+         border-radius: 0;
+         border-bottom: 1px solid #fff;
+         color: #fff;
+
+         &.textarea{
+            height: 120px;
+         }
+      }
+
+      .btn-white{
+         margin-top: 30px;
+         max-width: 135px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 15px;
+      }
+   }
+}
