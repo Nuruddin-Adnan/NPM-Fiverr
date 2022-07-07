@@ -1,0 +1,31 @@
+.footer{
+   background: #111111;
+   padding-top: 70px;
+   color: #fff;
+
+   .main-footer{
+      padding-bottom: 60px;
+      border-bottom: 2px solid #191919;
+
+      span{
+         display: inline-block;
+         padding-top: 20px;
+         font-weight: 400;
+         font-size: 16px;
+
+         @media(max-width: 767px){
+            font-size: 14px;
+         }
+      }
+
+      p{
+         padding-top: 10px;
+         font-weight: 700;
+         font-size: 18px;
+
+         @media(max-width: 767px){
+            font-size: 16px;
+         }
+      }
+   }
+}
