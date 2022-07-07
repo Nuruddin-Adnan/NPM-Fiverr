@@ -1,8 +1,3 @@
-/*=== abstracts css start === */
-@use 'abstracts/fonts';
-/*===// end of abstracts css === */
-
-
 /*=== base css start === */
 @use 'base/global';
 @use 'base/typography';
@@ -17,6 +12,7 @@
 
 /*=== layout css start === */
 @use 'layout/navbar';
+@use 'layout/banner';
 @use 'layout/footer';
 /*===// end of layout css === */
 

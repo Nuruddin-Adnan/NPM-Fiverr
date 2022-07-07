@@ -5,21 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Your website</title>
-  <link rel='shortcut icon' href='assets/images/logo.png' type='image/x-icon'>
+  <link rel='shortcut icon' href='assets/images/fav-icon.png' type='image/x-icon'>
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
   <!-- === header section start === -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="assets/Images/brand-logo.png" class="img-fluid" alt="logo"></a>
 
-        <a href="#" class="btn btn-primary ms-auto d-lg-none me-2">Login</a>
+        <a href="#" class="btn btn-white ms-auto d-lg-none me-2">Contact</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,24 +33,19 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-primary d-none d-lg-inline-block">Login</a>
+          <a href="#" class="btn btn-white d-none d-lg-inline-block">Contact</a>
         </div>
       </div>
     </nav>
@@ -57,18 +54,25 @@
  
 
   <!-- === banner section start === -->
-  <section class="banner py-5">
+  <section class="banner">
     <div class="container">
-     <div class="row gy-lg-0 gy-5 align-items-center">
-      <div class="col-lg-6">
-        <h1>This is banner title</h1>
-        <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repudiandae minus ratione magnam facere ipsum quasi dolorem mollitia atque molestiae, laudantium amet soluta dignissimos alias aliquam iusto earum laborum esse.</p>
-        <a href="#" class="btn btn-lg btn-primary">Read More</a>
+      <div class="banner-inside text-center">
+        <img class="img-fluid pb-2 pb-lg-4" src="assets/Images/25-year.png" alt="25years">
+        <h1 class="pb-2 pb-lg-4">Leading Researcher & Manufacturer
+          of Shellac Derivatives
+        </h1>
+        <p class="pb-2 pb-lg-4">Products ranging from dewaxed Bleach Shellac, Coating and Aleuritic Acid. With uses in pharma, fruit, confectionary
+           coatings and wood polishing.
+        </p>
+
+        <div class="btns pb-5">
+          <a href="#" class="btn-white me-2">Contact</a>
+          <a href="#" class="btn-border">About</a>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" alt="banenr-image" class="img-fluid">
-      </div>
-     </div>
+    </div>
+    <div class="bottom">
+      <img class="img-fluid w-100" src="assets/Images/Background/banner-bootom-arrow.png" alt="img">
     </div>
   </section>
   <!-- ===//end of banner section === -->

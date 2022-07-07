@@ -1,0 +1,26 @@
+.banner{
+   background: url(../Images/Background/main-banner.png) no-repeat center center/cover;
+   padding-top: 150px;
+
+   .banner-inside{
+      h1{
+         font-size: 68px;
+         font-weight: 700;
+         color: #fff;
+
+         @media(min-width: 1800px) {
+            white-space: pre-line;            
+         }
+      }
+
+      p{
+         color: #fff;
+         font-size: 24px;
+         font-weight: 400;
+
+         @media(min-width: 1800px){
+            white-space: pre-line;
+         }
+      }
+   }
+}
