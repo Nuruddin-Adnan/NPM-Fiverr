@@ -1,0 +1,128 @@
+.trusted-global-brands-and-map{
+   padding: 70px 0;
+
+   @media(max-width: 991px){
+      padding: 40px 0;
+
+   }   
+
+   .brand-icons{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+      
+      @media(max-width: 1199px){
+         grid-template-columns: repeat(4, 1fr);
+         gap: 20px;
+      }
+      @media(max-width: 991px){
+         grid-template-columns: repeat(3, 1fr);
+         gap: 20px;
+      }
+   }
+
+   .map{
+      .text-section{
+         box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
+         padding: 50px;
+
+         .country-list{
+            li{
+               list-style:disc;
+               accent-color: red;
+               font-weight: 600;
+               font-size: 30px;
+
+               @media(max-width: 1400px){
+                  font-size: 25px;
+               }
+
+               @media(max-width: 767px){
+                  font-size: 20px;
+               }
+            }
+         }
+      }
+   }
+}
+
+
+.certificate-copliance{
+   background: #fef4f4;
+
+   .obtained-certificates{
+      display: grid;
+      grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+      grid-template: 35px;
+      padding-bottom: 50px;
+
+      @media(max-width: 991px){
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 25px;
+      }
+
+      .item{
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         img{
+            @media(max-width: 1199px){
+               max-width: 150px;
+            }
+            @media(max-width: 767px){
+               max-width: 100px;
+            }
+         }
+      }
+   }
+
+   .upcoming{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 700px;
+      margin: auto;
+      padding-bottom: 15px;
+      position: relative;
+      
+      &::after{
+         position: absolute;
+         content: '';
+         background: #e32c2b;
+         height: 2px;
+         width: 89%;
+         left: 50%;
+         transform: translateX(-50%);
+         top: 100%;
+      }
+
+      .item{
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         img{
+            @media(max-width: 767px){
+               max-width: 100px;
+            }
+         }
+      }
+   }
+
+   .bottom-text{
+      padding-top: 10px;
+      font-size: 24px;
+      font-weight: 600;
+      color: #e32c2b;
+    
+      @media(max-width: 1400px){
+        font-size: 20px;
+      }
+    
+      @media(max-width: 767px){
+        font-size: 18px;
+      }
+   }
+}
