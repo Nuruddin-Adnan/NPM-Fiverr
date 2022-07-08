@@ -120,6 +120,10 @@
          &.textarea{
             height: 120px;
          }
+
+         &:focus{
+            box-shadow: none;
+         }
       }
 
       .btn-white{
