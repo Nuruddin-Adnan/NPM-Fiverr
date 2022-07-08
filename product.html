@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -54,7 +55,7 @@
  
 
   <!-- === banner section start === -->
-  <section class="banner">
+  <section class="banner product-banner">
     <div class="container">
       <div class="banner-inside product text-center d-flex justify-content-between align-items-center">
          <div>
@@ -62,8 +63,8 @@
          </div>
          <div>
             <nav aria-label="breadcrumb">
-               <ol class="breadcrumb">
-                 <li class="breadcrumb-item"><a href="#">Home</a></li>
+               <ol class="breadcrumb mb-0">
+                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                  <li class="breadcrumb-item active" aria-current="page">Library</li>
                </ol>
              </nav>
@@ -84,45 +85,46 @@
          <span class="mini-head">shop</span>
          <h2 class="section-header">Featured Products</h2>
       </div>
+
       <div class="product-menu">
-         <div class="product-item">
-            <img src="assets/Images/Product/AA.png" alt="product" class="img-fluid">
-            <span class="title">Aleuritic Acid</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/dbs.png" alt="product" class="img-fluid">
-            <span class="title">Dewaxed
-               Bleached
-               Shellac</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/dbs-2.png" alt="product" class="img-fluid">
-            <span class="title">Dewaxed
-               Blonde
-               Shellac</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/cs.png" alt="product" class="img-fluid">
-            <span class="title">Coating
-               Solutions</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/mml.png" alt="product" class="img-fluid">
-            <span class="title">MM Lemon</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/mmo.png" alt="product" class="img-fluid">
-            <span class="title">MM Orange</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/ss.png" alt="product" class="img-fluid">
-            <span class="title">Seedlac &
-               Shellac</span>
-         </div>
-         <div class="product-item">
-            <img src="assets/Images/Product/mm-tn.png " alt="product" class="img-fluid">
-            <span class="title">MM TN</span>
-         </div>
+        <div class="product-item active">
+          <img src="assets/Images/Product/AA.png" alt="product" class="img-fluid">
+          <span class="title">Aleuritic Acid</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/dbs.png" alt="product" class="img-fluid">
+          <span class="title">Dewaxed
+              Bleached
+              Shellac</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/dbs-2.png" alt="product" class="img-fluid">
+          <span class="title">Dewaxed
+              Blonde
+              Shellac</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/cs.png" alt="product" class="img-fluid">
+          <span class="title">Coating
+              Solutions</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/mml.png" alt="product" class="img-fluid">
+          <span class="title">MM Lemon</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/mmo.png" alt="product" class="img-fluid">
+          <span class="title">MM Orange</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/ss.png" alt="product" class="img-fluid">
+          <span class="title">Seedlac &
+              Shellac</span>
+        </div>
+        <div class="product-item">
+          <img src="assets/Images/Product/mm-tn.png " alt="product" class="img-fluid">
+          <span class="title">MM TN</span>
+        </div>
       </div>
 
       <div class="item-details">
@@ -166,19 +168,140 @@
   <!-- featured product display -->
 
 
+  <!-- product litarature -->
   <div class="data-and-description">
     <div class="container">
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+          <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Details</button>
+          <button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Quick Facts</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Literature</button>
         </div>
       </nav>
+
       <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        <div class="tab-pane fade  " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="title">Toxicity</td>
+                <td class="descriptn">Ab illo inventore veritatis et quasi architecto </td>
+              </tr>
+              <tr>
+                <td class="title">Dye content</td>
+                <td class="descriptn">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </td>
+              </tr>
+              <tr>
+                <td class="title">Processing</td>
+                <td class="descriptn">Voluptas sit aspernatur aut odit aut fugit</td>
+              </tr>
+              <tr>
+                <td class="title">Moisture</td>
+                <td class="descriptn">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </td>
+              </tr>
+              <tr>
+                <td class="title">Stability</td>
+                <td class="descriptn">Neque porro quisquam est, qui dolorem ipsum </td>
+              </tr>
+              <tr>
+                <td class="title">Storage</td>
+                <td class="descriptn">Quia dolor sit amet, consectetur, adipisci velit
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Packaging</td>
+                <td class="descriptn">Vel illum qui dolorem eum fugiat quo voluptas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="title">Specified size</td>
+                <td class="descriptn">Sed ut perspiciatis unde omnis iste natus error sit </td>
+              </tr>
+              <tr>
+                <td class="title">Identified</td>
+                <td class="descriptn">Voluptatem accusantium doloremque 
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Particle Size</td>
+                <td class="descriptn">Laudantium, totam rem aperiam</td>
+              </tr>
+              <tr>
+                <td class="title">Colors</td>
+                <td class="descriptn">Eaque ipsa quae</td>
+              </tr>
+              <tr>
+                <td class="title">Toxicity</td>
+                <td class="descriptn">Ab illo inventore veritatis et quasi architecto </td>
+              </tr>
+              <tr>
+                <td class="title">Dye content</td>
+                <td class="descriptn">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </td>
+              </tr>
+              <tr>
+                <td class="title">Processing</td>
+                <td class="descriptn">Voluptas sit aspernatur aut odit aut fugit</td>
+              </tr>
+              <tr>
+                <td class="title">Moisture</td>
+                <td class="descriptn">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </td>
+              </tr>
+              <tr>
+                <td class="title">Stability</td>
+                <td class="descriptn">Neque porro quisquam est, qui dolorem ipsum </td>
+              </tr>
+              <tr>
+                <td class="title">Storage</td>
+                <td class="descriptn">Quia dolor sit amet, consectetur, adipisci velit
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Packaging</td>
+                <td class="descriptn">Vel illum qui dolorem eum fugiat quo voluptas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="title">Particle Size</td>
+                <td class="descriptn">Laudantium, totam rem aperiam</td>
+              </tr>
+              <tr>
+                <td class="title">Colors</td>
+                <td class="descriptn">Eaque ipsa quae</td>
+              </tr>
+              <tr>
+                <td class="title">Processing</td>
+                <td class="descriptn">Voluptas sit aspernatur aut odit aut fugit</td>
+              </tr>
+              <tr>
+                <td class="title">Moisture</td>
+                <td class="descriptn">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </td>
+              </tr>
+              <tr>
+                <td class="title">Stability</td>
+                <td class="descriptn">Neque porro quisquam est, qui dolorem ipsum </td>
+              </tr>
+              <tr>
+                <td class="title">Storage</td>
+                <td class="descriptn">Quia dolor sit amet, consectetur, adipisci velit
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Packaging</td>
+                <td class="descriptn">Vel illum qui dolorem eum fugiat quo voluptas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -419,5 +542,7 @@
 
 
   <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
 </body>
 </html>

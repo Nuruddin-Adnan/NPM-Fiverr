@@ -2,6 +2,14 @@
    background: url(../Images/Background/main-banner.png) no-repeat center center/cover;
    padding-top: 150px;
 
+   &.product-banner{
+      background: url(../Images/Background/Product-bg-banner.png) no-repeat bottom center/cover;
+
+      @media (max-width: 767px) {
+         padding-top: 50px;      
+      }
+   }
+
    @media (max-width: 767px) {
       padding-top: 120px;      
    }
@@ -60,6 +68,12 @@
          font-weight: 400;
          font-size: 24px;
          color: #fff;
+
+         @media(max-width: 767px) {
+            font-size: 18px;
+         }
+
+
          a{
             color: #fff;
          }
