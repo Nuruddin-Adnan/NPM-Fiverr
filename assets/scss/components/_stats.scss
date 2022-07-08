@@ -3,16 +3,16 @@
 
    .number{
       font-weight: 700;
-      font-size: 70px;
+      font-size: 60px;
       color: #fff;
 
       
-      @media(max-width: 1400px){
-         font-size: 55px;
+      @media(max-width: 1399px){
+         font-size: 45px;
       }
       
       @media(max-width: 767px){
-         font-size: 40px;
+         font-size: 35px;
       }
    }
 
@@ -21,7 +21,7 @@
       font-weight: 400;
       color: #fff;
 
-      @media(max-width: 1400px){
+      @media(max-width: 1399px){
          font-size: 20px;
       }
 

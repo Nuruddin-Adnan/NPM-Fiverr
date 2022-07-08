@@ -7,7 +7,7 @@
       font-weight: 60;
       text-transform: uppercase;
 
-      @media(max-width: 1400px){
+      @media(max-width: 1399px){
          font-size: 20px;
       }
       @media(max-width: 767px){
@@ -17,11 +17,11 @@
 
    .sec-header{
       font-weight: 700;
-      font-size: 50px;
+      font-size: 45px;
       padding: 25px 0;
 
-      @media(max-width: 1400px){
-         font-size: 40px;
+      @media(max-width: 1399px){
+         font-size: 38px;
       }
       @media(max-width: 767px){
          font-size: 35px;
@@ -34,7 +34,7 @@
       font-weight: 400;
       padding-bottom: 45px;
 
-      @media(max-width: 1400px){
+      @media(max-width: 1399px){
          font-size: 16px;
          padding-bottom: 35px;
       }
@@ -62,7 +62,7 @@
       font-size: 20px;
       font-weight: 400;
 
-      @media(max-width: 1400px){
+      @media(max-width: 1399px){
          font-size: 16px;
       }
    }
@@ -78,8 +78,8 @@
          white-space: pre-line;         
       }
 
-      @media(max-width: 1400px){
-         font-size: 20px;
+      @media(max-width: 1399px){
+         font-size: 18px;
       }
       @media(max-width: 767px){
          font-size: 16px;
@@ -94,17 +94,16 @@
          font-weight: 700;
          padding-bottom: 40px;
 
-         @media(max-width: 1400px){
-            padding-bottom: 25px;
+         @media(max-width: 1399px){
+            padding-bottom: 22px;
          }
-
       }
 
       label{
          font-weight: 400;
          font-size: 20px;
 
-         @media(max-width: 1400px){
+         @media(max-width: 1399px){
             font-size: 16px;
          }
       }
@@ -133,6 +132,10 @@
          align-items: center;
          justify-content: center;
          margin-left: 15px;
+
+         @media(max-width: 1399px){
+            font-size: 20px;
+         }
       }
    }
 }

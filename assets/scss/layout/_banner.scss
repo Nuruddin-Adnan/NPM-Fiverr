@@ -17,7 +17,7 @@
    .banner-inside{
 
       h1{
-         font-size: 68px;
+         font-size: 65px;
          font-weight: 700;
          color: #fff;
 
@@ -26,11 +26,11 @@
          }
 
          @media (max-width: 1400px) {
-            font-size: 55px;  
+            font-size: 50px;  
          }
 
          @media (max-width: 1199px) {
-            font-size: 45px;  
+            font-size: 40px;  
          }
 
          @media (max-width: 767px) {
@@ -43,21 +43,22 @@
          font-size: 24px;
          font-weight: 400;
 
-         @media (max-width: 1400px) {
-            font-size: 20px;  
-         }
-
-         @media (max-width: 1199px) {
-            font-size: 18px;  
-         }
-
-         @media (max-width: 767px) {
-            font-size: 16px;  
-         }
-
          @media(min-width: 1800px){
             white-space: pre-line;
          }
+
+         @media (max-width: 1400px) {
+            font-size: 18px;  
+         }
+
+         @media (max-width: 1199px) {
+            font-size: 16px;  
+         }
+
+         @media (max-width: 767px) {
+            font-size: 15px;  
+         }
+
       }
 
       &.product{
@@ -83,7 +84,11 @@
          }
 
          &.active{
+            font-size: 30px;
             font-weight: 700;
+            @media(max-width: 767px) {
+               font-size: 22px;
+            }
          }
       }
    }

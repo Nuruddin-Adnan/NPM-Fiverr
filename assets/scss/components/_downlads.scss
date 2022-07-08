@@ -5,11 +5,15 @@
    p{
       font-weight: 400;
       font-size: 20px;
+      @media(max-width: 1399px){
+         font-size: 16px;
+      }
    }
 
    .datasheet-card{
       background: #fff;
       padding: 30px;
+
       @media(max-width: 767px){
          padding: 20px;
       }
@@ -18,6 +22,9 @@
          font-weight: 600;
          font-size: 30px;
          padding: 15px 0;
+         @media(max-width: 1399px){
+            font-size: 25px;
+         }
          @media(max-width: 767px){
             font-size: 22px;
          }
@@ -26,6 +33,11 @@
       .download-anchor{
          color: #e32c2b;
          font-size: 20px;
+
+         @media(max-width: 1399px){
+            font-size: 18px;
+         }
+
          @media(max-width: 767px){
             font-size: 16px;
          }

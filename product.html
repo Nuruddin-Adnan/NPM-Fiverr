@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- bootstrap  -->
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="assets/vendor/Swiper-slider/css/swiper-bundle.min.css">
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -88,80 +90,82 @@
          <h2 class="section-header">Featured Products</h2>
       </div>
 
-      <div class="product-menu">
-        <div class="active product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/AA.png" alt="product" class="img-fluid">
-              <span class="title">Aleuritic Acid</span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/dbs.png" alt="product" class="img-fluid">
-              <span class="title">Dewaxed
-                  Bleached
-                  Shellac
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/dbs-2.png" alt="product" class="img-fluid">
-              <span class="title">Dewaxed
-                  Blonde
-                  Shellac
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/cs.png" alt="product" class="img-fluid">
-              <span class="title">Coating
-                  Solutions
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/mml.png" alt="product" class="img-fluid">
-              <span class="title">MM Lemon</span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/mmo.png" alt="product" class="img-fluid">
-              <span class="title">MM Orange</span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/ss.png" alt="product" class="img-fluid">
-              <span class="title">Seedlac &
-                  Shellac
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="product-item">
-          <a href="#">
-            <div class="item-body">
-              <img src="assets/Images/Product/mm-tn.png " alt="product" class="img-fluid">
-              <span class="title">MM TN</span>
-            </div>
-          </a>
+      <div class="product-menu swiper ProductSwiper">
+        <div class="swiper-wrapper">
+          <div class="active product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/AA.png" alt="product" class="img-fluid">
+                <span class="title">Aleuritic Acid</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/dbs.png" alt="product" class="img-fluid">
+                <span class="title">Dewaxed
+                    Bleached
+                    Shellac
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/dbs-2.png" alt="product" class="img-fluid">
+                <span class="title">Dewaxed
+                    Blonde
+                    Shellac
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/cs.png" alt="product" class="img-fluid">
+                <span class="title">Coating
+                    Solutions
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/mml.png" alt="product" class="img-fluid">
+                <span class="title">MM Lemon</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/mmo.png" alt="product" class="img-fluid">
+                <span class="title">MM Orange</span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/ss.png" alt="product" class="img-fluid">
+                <span class="title">Seedlac &
+                    Shellac
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="product-item swiper-slide">
+            <a href="#">
+              <div class="item-body">
+                <img src="assets/Images/Product/mm-tn.png " alt="product" class="img-fluid">
+                <span class="title">MM TN</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -353,13 +357,13 @@
     </div>
 
     <div class="container py-5">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-4 pb-3 pb-lg-0">
          <span class="mini-head text-white">Resources</span>
          <h2 class="section-header text-white">Downloads</h2>
          <p class="text-white">Tincidunt fermentum elit. Sed congue lectus 
-            vel blandit tincidunt. In urna lacus, scelerisqu 
-            vitae viverra eu, aliquet non nulla.</p>          
+          vel blandit tincidunt. In urna lacus, scelerisqu 
+          vitae viverra eu, aliquet non nulla.</p>          
         </div>
         <div class="col-lg-4 pb-3 pb-lg-0">
          <div class="datasheet-card h-100">
@@ -577,5 +581,7 @@
  
 
   <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/Swiper-slider/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
 </body>
 </html>
