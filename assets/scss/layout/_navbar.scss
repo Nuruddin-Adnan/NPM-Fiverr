@@ -45,7 +45,11 @@
             }
 
             &:hover{
-               color: #c8c8c8;
+               color: #ffb643;
+            }
+
+            &.active{
+               color: #ffb643;
             }
          }
 
