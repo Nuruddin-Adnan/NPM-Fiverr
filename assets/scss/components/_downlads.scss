@@ -1,0 +1,34 @@
+.downloads{
+   background: url(../Images/Background/download-bg.png) no-repeat center center/cover;
+
+
+   p{
+      font-weight: 400;
+      font-size: 20px;
+   }
+
+   .datasheet-card{
+      background: #fff;
+      padding: 30px;
+      @media(max-width: 767px){
+         padding: 20px;
+      }
+
+      .card-head{
+         font-weight: 600;
+         font-size: 30px;
+         padding: 15px 0;
+         @media(max-width: 767px){
+            font-size: 22px;
+         }
+      }
+
+      .download-anchor{
+         color: #e32c2b;
+         font-size: 20px;
+         @media(max-width: 767px){
+            font-size: 16px;
+         }
+      }
+   }
+}

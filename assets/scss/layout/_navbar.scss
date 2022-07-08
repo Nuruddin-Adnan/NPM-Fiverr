@@ -22,11 +22,13 @@
       .navbar-nav{
 
          .nav-item{
-            margin-right: 35px;
-            
-            @media(max-width: 1400px){
-               margin-right: 25px;
-            }
+            &:not(:last-child){
+               margin-right: 35px;
+
+               @media(max-width: 1400px){
+                  margin-right: 25px;
+               }
+            }            
          }
 
          .nav-link{

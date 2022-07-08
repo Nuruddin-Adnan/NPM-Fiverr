@@ -7,6 +7,7 @@
    }
 
    .banner-inside{
+
       h1{
          font-size: 68px;
          font-weight: 700;
@@ -48,6 +49,27 @@
 
          @media(min-width: 1800px){
             white-space: pre-line;
+         }
+      }
+
+      &.product{
+         padding: 100px 0;
+
+      }
+      .breadcrumb-item{
+         font-weight: 400;
+         font-size: 24px;
+         color: #fff;
+         a{
+            color: #fff;
+         }
+
+         &:before{
+            color: #fff;
+         }
+
+         &.active{
+            font-weight: 700;
          }
       }
    }
