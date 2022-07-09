@@ -1,131 +1,138 @@
-.get-in-touch{
+.get-in-touch {
    background: url(../Images/Background/contact-us-bg.png) no-repeat top center/cover;
    color: #fff;
 
-   span{
+   span {
       font-size: 24px;
       font-weight: 60;
       text-transform: uppercase;
 
-      @media(max-width: 1399px){
+      @media(max-width: 1399px) {
          font-size: 20px;
       }
-      @media(max-width: 767px){
+
+      @media(max-width: 767px) {
          font-size: 18px;
       }
    }
 
-   .sec-header{
+   .sec-header {
       font-weight: 700;
       font-size: 45px;
       padding: 25px 0;
 
-      @media(max-width: 1399px){
-         font-size: 38px;
+      @media(max-width: 1399px) {
+         font-size: 34px;
       }
-      @media(max-width: 767px){
-         font-size: 35px;
+
+      @media(max-width: 767px) {
+         font-size: 30px;
          padding: 15px 0;
       }
    }
-   
-   .sub-paragraph{
+
+   .sub-paragraph {
       font-size: 20px;
       font-weight: 400;
       padding-bottom: 45px;
 
-      @media(max-width: 1399px){
+      @media(max-width: 1399px) {
          font-size: 16px;
          padding-bottom: 35px;
       }
    }
 
-   .address{
+   .address {
       display: flex;
       padding-left: 10px;
    }
-   .email, .office{
+
+   .email,
+   .office {
       padding-bottom: 30px;
    }
 
-   .image{
+   .image {
       padding: 10px 20px 0 0;
       width: 65px;
 
-      img{
-         max-width: 55px;
+      img {
+         max-width: 35px;
       }
 
    }
 
-   .con-title{
+   .con-title {
       font-size: 20px;
       font-weight: 400;
 
-      @media(max-width: 1399px){
+      @media(max-width: 1399px) {
          font-size: 16px;
       }
    }
 
-   .con-main{
-      font-size: 24px;
-      font-weight: 700;
-      a{
+   .con-main {
+      font-size: 20px;
+      font-weight: 600;
+
+      a {
          color: #fff;
       }
 
-      @media(min-width: 1400px) {
-         white-space: pre-line;         
+      @media(min-width: 1600px) {
+         white-space: pre-line;
       }
 
-      @media(max-width: 1399px){
-         font-size: 18px;
-      }
-      @media(max-width: 767px){
+      @media(max-width: 1599px) {
          font-size: 16px;
+      }
+
+      @media(max-width: 767px) {
+         font-size: 14px;
       }
    }
 
 
    // form section
-   .message-form{
-      h3{
-         font-size: 30px;
+   .message-form {
+      h3 {
+         font-size: 28px;
          font-weight: 700;
          padding-bottom: 40px;
 
-         @media(max-width: 1399px){
+         @media(max-width: 1599px) {
+            font-size: 24px;
             padding-bottom: 22px;
          }
       }
 
-      label{
+      label {
          font-weight: 400;
          font-size: 20px;
 
-         @media(max-width: 1399px){
+         @media(max-width: 1399px) {
             font-size: 16px;
          }
       }
 
 
-      .form-control{
+      .form-control {
          background: transparent;
          border: none;
          border-radius: 0;
          border-bottom: 1px solid #fff;
          color: #fff;
 
-         &.textarea{
+         &.textarea {
             height: 120px;
          }
 
-         &:focus{
+         &:focus {
             box-shadow: none;
          }
       }
 
-      .btn-white{
+      .btn-white {
          margin-top: 30px;
          max-width: 135px;
          display: flex;
@@ -133,7 +140,7 @@
          justify-content: center;
          margin-left: 15px;
 
-         @media(max-width: 1399px){
+         @media(max-width: 1399px) {
             font-size: 20px;
          }
       }

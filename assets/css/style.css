@@ -287,6 +287,7 @@ body {
   font-weight: 600;
   font-size: 28px;
   padding: 20px 0;
+  color: #000;
 }
 @media (max-width: 1399px) {
   .feature-product .feature-item .card-heading {
@@ -301,6 +302,7 @@ body {
 .feature-product .feature-item .card-passage {
   font-weight: 400;
   font-size: 16px;
+  color: #000;
 }
 @media (max-width: 1399px) {
   .feature-product .feature-item .card-passage {
@@ -481,6 +483,12 @@ body {
     gap: 20px;
   }
 }
+@media (max-width: 575px) {
+  .trusted-global-brands-and-map .brand-icons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
 .trusted-global-brands-and-map .map .text-section {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
   padding: 50px;
@@ -605,12 +613,12 @@ body {
 }
 @media (max-width: 1399px) {
   .get-in-touch .sec-header {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
 @media (max-width: 767px) {
   .get-in-touch .sec-header {
-    font-size: 35px;
+    font-size: 30px;
     padding: 15px 0;
   }
 }
@@ -629,7 +637,8 @@ body {
   display: flex;
   padding-left: 10px;
 }
-.get-in-touch .email, .get-in-touch .office {
+.get-in-touch .email,
+.get-in-touch .office {
   padding-bottom: 30px;
 }
 .get-in-touch .image {
@@ -637,7 +646,7 @@ body {
   width: 65px;
 }
 .get-in-touch .image img {
-  max-width: 55px;
+  max-width: 35px;
 }
 .get-in-touch .con-title {
   font-size: 20px;
@@ -649,34 +658,35 @@ body {
   }
 }
 .get-in-touch .con-main {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
 }
 .get-in-touch .con-main a {
   color: #fff;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .get-in-touch .con-main {
     white-space: pre-line;
   }
 }
-@media (max-width: 1399px) {
-  .get-in-touch .con-main {
-    font-size: 18px;
-  }
-}
-@media (max-width: 767px) {
+@media (max-width: 1599px) {
   .get-in-touch .con-main {
     font-size: 16px;
   }
 }
+@media (max-width: 767px) {
+  .get-in-touch .con-main {
+    font-size: 14px;
+  }
+}
 .get-in-touch .message-form h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   padding-bottom: 40px;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1599px) {
   .get-in-touch .message-form h3 {
+    font-size: 24px;
     padding-bottom: 22px;
   }
 }
