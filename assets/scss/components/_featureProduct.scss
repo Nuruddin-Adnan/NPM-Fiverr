@@ -3,6 +3,9 @@
 
    .section-head {
       padding-bottom: 30px;
+      @media(max-width:767px) {
+         padding-bottom: 0;
+      }
    }
 
    .feature-item {
